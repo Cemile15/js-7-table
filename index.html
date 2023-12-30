@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <div class="sec">
+            <div class="sec1">
+                <label class="text1" for="name">Ad:</label>
+                <input class="hhh" type="text" placeholder=" ad" id="name">
+            </div>
+            <div class="sec1">
+                <label class="text1" for="surname">Soyad:</label>
+                <input class="hhh" type="text" placeholder=" soyad" id="surname">
+            </div>
+            <div class="sec1">
+                <label class="text1" for="age">Yaş:</label>
+                <input class="hhh" type="number" placeholder=" yaş" id="age">
+            </div>
+            <button class="text3" onclick="addData()">Əlavə et</button>
+        </div>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Yaş</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
